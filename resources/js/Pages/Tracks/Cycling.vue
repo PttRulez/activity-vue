@@ -1,0 +1,13 @@
+<script setup>
+import {usePage} from "@inertiajs/vue3";
+import {Button} from "primevue";
+
+const page = usePage()
+
+</script>
+
+<template>
+  <p>paragraph</p>
+  <Button label="go cycling" />
+
+</template>
